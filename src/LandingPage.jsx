@@ -40,7 +40,9 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       {messages[currentMessageIndex] && (
-        <h1 className={`title${currentMessageIndex}`}>{messages[currentMessageIndex]}</h1>
+        <h1 className={`title${currentMessageIndex}`}>
+          {messages[currentMessageIndex]}
+        </h1>
       )}
 
       {currentMessageIndex === messages.length - 1 ? (
@@ -61,10 +63,17 @@ const LandingPage = () => {
         <div className="popup">
           <div className="popup-content">
             <h2>¡Sabía que lo harías! tkm ❤️</h2>
-            <img src="https://res.cloudinary.com/ds8cp2nxp/image/upload/v1719686169/yufla2dmzsta1_z86rfi.gif" alt="Background" />
+            <img
+              src="https://res.cloudinary.com/ds8cp2nxp/image/upload/v1719686169/yufla2dmzsta1_z86rfi.gif"
+              alt="Background"
+            />
           </div>
         </div>
       )}
+
+      <footer className="footer ">
+        <strong className="text-white">Hecho por Jonatan</strong>
+      </footer>
     </div>
   );
 };

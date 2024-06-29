@@ -82,6 +82,16 @@
     user-select: none;
   }
   
+  .footer{
+    color: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100VW;
+    margin-bottom: 50px;
+  }
 
   h2{
     color: black;
