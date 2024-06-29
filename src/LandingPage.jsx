@@ -60,7 +60,7 @@ const LandingPage = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
-            <h2>¡Sabía que lo harías! tmk ❤️</h2>
+            <h2>¡Sabía que lo harías! tkm ❤️</h2>
             <img src="https://res.cloudinary.com/ds8cp2nxp/image/upload/v1719686169/yufla2dmzsta1_z86rfi.gif" alt="Background" />
           </div>
         </div>
